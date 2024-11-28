@@ -1,0 +1,77 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333; /* Dark gray text */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #1a73e8; /* Blue */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styling */
+main {
+    background-color: #fff; /* White for content */
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #1a73e8; /* Blue */
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* Heading Styling */
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #1a73e8; /* Blue */
+}
+
+a:hover {
+    color: #ff5722; /* Orange */
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
